@@ -6,6 +6,7 @@ from model import prepare_lstm_data, train_lstm_model, evaluate_regression_model
 from utils import plot_predictions
 
 def main():
+    
     st.title("Stock Market Trend Prediction")
 
     ticker = st.text_input("Enter Stock Ticker (e.g., AAPL, MSFT):", value="AAPL")
